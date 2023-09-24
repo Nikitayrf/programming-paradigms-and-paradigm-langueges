@@ -3,4 +3,12 @@ def sort_list_declarative(numbers):
     return res
 
 
-print(sort_list_declarative([1, 2, 1, 5, 8, 3]))
+array = [1, 2, 1, 5, 8, 3]
+
+print("Array:")
+print(array)
+
+print(sort_list_declarative(array))
+
+print("Sorted Array:")
+print(array)
